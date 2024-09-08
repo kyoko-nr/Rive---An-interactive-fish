@@ -3,7 +3,7 @@ import { Rive } from "@rive-app/canvas";
 
 const init = () => {
   const r = new Rive({
-    src: "/public/fish.riv",
+    src: "./fish.riv",
     canvas: document.getElementById("canvas"),
     autoplay: true,
     stateMachines: "State Machine 1",
